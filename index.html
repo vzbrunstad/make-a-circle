@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <title>Make A Circle!</title>
   </head>
-  <body>
+  <body style="background-color:powderblue;">
     <style>
         /* Write any CSS styling here */
     </style>
 
     <main>
-      <!-- write your HTML here! -->
+      <style >
+        /* CSS EMBEDDED INTO HTML PAGE */
+          .box {
+            height: 100px;
+            width: 100px;
+            border: 2px solid aqua;
+            background: #a80939;
+            line-height: 100px;
+            text-align: center;
+          }
+          .box {
+            height: 100px;
+            width: 100px;
+            border-radius: 50px;
+            border: 2px solid aqua;
+            line-height: 100px;
+            text-align: center;
+          }
+          .oval {
+            width: 200px;
+            height: 100px;
+            background: #a84909;
+            border-radius: 50%;
+            line-height: 100px;
+            text-align: center;
+          }
+
+        </style>
+        
+        <!-- HTML -->
+        <div style="font-family:verdana;" class="box">Box</div>
+        <div style="font-family:verdana;" class="box">Circle</div>
+        <div style="color:blue;" class="oval">Oval</div> 
     </main>
   </body>
 </html>
